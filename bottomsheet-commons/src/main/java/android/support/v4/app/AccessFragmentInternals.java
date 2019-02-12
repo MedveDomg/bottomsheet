@@ -8,6 +8,6 @@ public final class AccessFragmentInternals {
     }
 
     public static int getContainerId(Fragment fragment) {
-        return fragment.mContainerId;
+        return fragment.getId();
     }
 }
